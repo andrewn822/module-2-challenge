@@ -1,0 +1,59 @@
+body {
+    background-color: ivory;
+}
+
+
+nav a {
+    color: cornsilk;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header {
+    padding: 50px;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 30px;
+
+}
+
+header nav {
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+
+
+
+}
+
+p {
+
+
+}
+
+section {
+
+
+
+}
+
+.aside-tags {
+
+
+
+}
+
+.main-portion {
+
+
+
+}
