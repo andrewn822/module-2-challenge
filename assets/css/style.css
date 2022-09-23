@@ -25,12 +25,12 @@ footer h3 {
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 35px;
 
 }
 
 header nav {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 nav a {
@@ -61,7 +61,7 @@ p {
 }
 
 h1, h2, h3 {
-font-family: fantasy;
+font-family: monospace;
 
 }
 
@@ -132,7 +132,7 @@ font-family: fantasy;
 
 .contacts {
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     word-spacing: 60px;
 }
 
