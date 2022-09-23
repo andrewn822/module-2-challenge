@@ -9,6 +9,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap; 
     align-items: center;
+    width: 100%;
 }
 
 footer {
@@ -31,6 +32,7 @@ header h1 {
 
 header nav {
     font-size: 23px;
+    display: flex;
 }
 
 nav a {
@@ -90,29 +92,42 @@ font-family: monospace;
 
 }
 
-.container-1, .container-2 {
+.work {
+    width: 90%;
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    flex: 100%;
+    justify-content: center;
 }
 
-
-.container-1 div, .container-2 div {
-    border: 1px #ccc solid; 
-    padding: 70px;
-    flex: 1;
-    min-width: 100px;
-    background-color: darkgray;
-    margin: 10px
+.work h2 {
+    padding-right: 15px;
 }
 
-.container-1 {
+.work-container {
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
-.container-2 {
-    display: flex;
+
+.card {
+    height: 200px;
+    width: 50%;
+    border: 5px solid black;
+    transition: 0.3s;
+}
+
+.card h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.card-label {
+    position: relative;
 
 }
 
@@ -137,46 +152,35 @@ font-family: monospace;
 }
 
 
-.work {
-    margin: 50px auto;
-    width: 80%;
-    margin-bottom: 30px;
-    display: flex;
-}
-
-.work h2 {
-    padding-right: 15px;
-}
-
-.work-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.card {
-    height: 200px;
-    width: 50%;
-    border: 5px solid black;
-    transition: 0.3s;
-}
-
-.card h3 {
-    font-size: 30px;
-    text-align: center;
-    padding: 50px;
-
-}
 
 .card:hover {
     background-color: blanchedalmond;
     color: white;
 }
 
-@media (max-width: 768px) {
-    .navbar {
-      flex-wrap: wrap;
-      flex-direction: column;
+@media screen and (max-width: 700px) {
+    header {
+       
+        flex-direction: column;
+        text-align: center;
     }
-}s
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-portion-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main-portion-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
