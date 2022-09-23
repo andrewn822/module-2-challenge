@@ -2,22 +2,30 @@ body {
     background-color: ivory;
 }
 
-
-nav a {
-    color: cornsilk;
-    text-decoration: none;
-    padding: 10px;
-}
-
 header {
     padding: 50px;
     background-color: lightsteelblue;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; 
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+footer h3 {
+    font-size: 25px;
+
 }
 
 header h1 {
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
@@ -25,35 +33,143 @@ header nav {
     font-size: 20px;
 }
 
-main {
-    display: flex;
+nav a {
+    color: cornsilk;
+    text-decoration: none;
+    padding: 10px;
 }
 
-aside {
+nav ul {
+    display: flex;
+    
+}
 
+main {
+    flex-wrap: wrap;
+    margin: auto;
+}
 
+main h2 {
+    font-size: 30px;
 
 }
 
 p {
+     font-size: 20px;
+    
+
+}
+
+h1, h2, h3 {
+font-family: fantasy;
+
+}
+
+.titles {
+    padding: 20px;
+}
+
+.main-portion-1, .main-portion-2, .main-portion-3 {
+    padding: 20px
+
+}
+
+.main-portion-1 {
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+    margin-bottom: 30px;
+
+}
+
+.main-portion-3 {
+    margin: 50px auto;
+    width: 80%;
+    margin-bottom: 30px;
 
 
 }
 
-section {
+.container-1, .container-2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 100%;
+}
 
+
+.container-1 div, .container-2 div {
+    border: 1px #ccc solid; 
+    padding: 70px;
+    flex: 1;
+    min-width: 100px;
+    background-color: darkgray;
+    margin: 10px
+}
+
+.container-1 {
+    display: flex;
+
+}
+
+.container-2 {
+    display: flex;
+
+}
+
+.project {
+    margin: 10pxs;
 
 
 }
 
-.aside-tags {
-
-
+.contacts a {
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: 700;
+    color: cadetblue;
 
 }
 
-.main-portion {
+.contacts {
+    text-align: center;
+    font-size: 20px;
+    word-spacing: 60px;
+}
 
 
+.work {
+    margin: 50px auto;
+    width: 80%;
+    margin-bottom: 30px;
+    display: flex;
+}
 
+.work h2 {
+    padding-right: 15px;
+}
+
+.work-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    height: 200px;
+    width: 50%;
+    border: 5px solid black;
+    transition: 0.3s;
+}
+
+.card h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.card:hover {
+    background-color: blanchedalmond;
+    color: white;
 }
