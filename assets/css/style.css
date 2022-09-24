@@ -117,6 +117,7 @@ font-family: monospace;
     width: 50%;
     border: 5px solid black;
     transition: 0.3s;
+    overflow: hidden;
 }
 
 .card a {
